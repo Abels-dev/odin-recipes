@@ -1,2 +1,2 @@
 # odin-recipes
-this is odin recipes that have multiple dishes recipes. along with their ingredients and steps.
+This is a project that is inspired by the odin project which is a platform for learning web development. and in this project we tried to demonstrate a basic html knowledge by building simple website for recipes known as odin recipes. 
