@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(8, 30, 49); */
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    background-color: #1f2937 ;
+    color: aliceblue;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+header{
+    background-color: #1f2937;
+    padding: 1.5rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    color: #1f2937;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+a:hover{
+   opacity: 0.7;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h3{
+    padding-left: 40px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #1f2937;
+    margin-bottom: 10px;
+    
+}
+.Description{
+    width: 60ch;
+    box-shadow: 0px 0px 10px 5px grey;
+    padding: 0.5rem;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.ingrediants{
+  border: 2px solid black;
+  padding: 1rem;
+  padding-left: 30px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 5px grey;
+
+}
+.ingrediants li{
+    padding: 0.3rem;
+}
+.instructions{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 1rem;
+    padding-left: 40px;
+    line-height: 1.6;
+    box-shadow: 0px 0px 10px 5px grey;
+    margin-bottom: 20px;
+}
